@@ -143,3 +143,32 @@ body {
   border-radius: 48px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
 }
+/* Productive Users Section */
+.users-section {
+  background: #e7eaff;
+  border-radius: 24px;
+  margin: 110px auto;
+  max-width: 1140px;
+  padding: 50px 40px 50px 40px;
+  text-align: center;
+}
+.users-section h2 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.users-stats {
+  display: flex;
+  justify-content: center;
+  gap: 158px;
+}
+.stat {
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--primary);
+}
+.stat-label {
+  color: var(--muted);
+  margin-top: 5px;
+  font-size: 20px;
+}
