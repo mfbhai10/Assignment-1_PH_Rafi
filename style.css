@@ -143,6 +143,7 @@ body {
   border-radius: 48px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
 }
+
 /* Productive Users Section */
 .users-section {
   background: #e7eaff;
@@ -172,6 +173,7 @@ body {
   margin-top: 5px;
   font-size: 20px;
 }
+
 /* Feedback Section */
 .feedback-section {
   background: var(--main-bg);
@@ -228,12 +230,13 @@ body {
 }
 .reviewer-name {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .review-date {
   color: var(--muted);
-  font-size: 15px;
+  font-size: 0.9rem;
 }
+
 /* get-started section */
 .get-started {
   max-width: 1140px;
@@ -282,6 +285,7 @@ body {
   margin: 40px auto;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
+
 /* Contact Section */
 .contact-section {
   display: flex;
@@ -339,6 +343,7 @@ body {
   background: var(--btn-color);
   transform: translateY(-2px) scale(1.05);
 }
+
 /* Footer */
 footer {
   background: #f6f8fe;
