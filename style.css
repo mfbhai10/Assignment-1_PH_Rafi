@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --main-bg: #f6f8fe;
+  --primary: #4e47ff;
+  --section-bg: #eceeff;
+  --card-bg: #fff;
+  --text: #222;
+  --muted: #888;
+  --btn-color: #a0aa31;
+  --radius: 18px;
+  --transition: 0.4s;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: var(--main-bg);
+  color: var(--text);
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px 150px;
+  background: var(--main-bg);
+}
+.logo {
+  font-weight: bold;
+  font-size: 34px;
+  color: var(--primary);
+  letter-spacing: 2px;
+}
+.signup-btn {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background var(--transition), transform var(--transition);
+}
+.signup-btn:hover {
+  background: var(--btn-color);
+  transform: translateY(-2px) scale(1.05);
+}
+
+/* Banner */
+.banner {
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-bg);
+  text-align: center;
+  padding: 60px 20px 150px 20px;
+}
+
+.hero-bg {
+  background: url("/Assets/Hero-bg.png") repeat;
+  background-color: #f6f8fe;
+}
+.navbar,
+.banner {
+  background: transparent;
+}
+
+.banner h1 {
+  max-width: 905px;
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 37px;
+}
+.main-btn {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 14px 38px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition), transform var(--transition);
+}
+.main-btn:hover {
+  background: var(--btn-color);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
